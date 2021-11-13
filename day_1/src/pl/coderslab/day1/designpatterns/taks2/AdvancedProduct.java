@@ -1,13 +1,15 @@
-package pl.coderslab.day1.designpatterns;
+package pl.coderslab.day1.designpatterns.taks2;
 
-public class SimpleProduct implements Product {
+public class AdvancedProduct implements Product {
 
     private String name;
     private String price;
+    private String discount;
 
-    public SimpleProduct(String name, String price) {
+    public AdvancedProduct(String name, String price, String discount) {
         this.name = name;
         this.price = price;
+        this.discount = discount;
     }
 
     @Override
@@ -19,4 +21,5 @@ public class SimpleProduct implements Product {
     public String getPrice() {
         return price;
     }
+
 }

@@ -1,4 +1,4 @@
-package pl.coderslab.day1.designpatterns;
+package pl.coderslab.day1.designpatterns.task1;
 
 import java.util.ArrayList;
 import java.util.List;

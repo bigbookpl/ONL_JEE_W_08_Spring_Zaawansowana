@@ -1,4 +1,4 @@
-package pl.coderslab.day1.designpatterns;
+package pl.coderslab.day1.designpatterns.taks2;
 
 import java.util.List;
 
