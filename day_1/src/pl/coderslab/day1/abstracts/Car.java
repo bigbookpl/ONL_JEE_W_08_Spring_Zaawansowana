@@ -1,4 +1,4 @@
-package pl.coderslab.day1;
+package pl.coderslab.day1.abstracts;
 
 public class Car extends Vehicle {
 
