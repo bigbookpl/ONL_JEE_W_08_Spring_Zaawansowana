@@ -2,6 +2,7 @@ package pl.coderslab.day2.interfaces;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main01 {
 
@@ -44,6 +45,8 @@ public class Main01 {
 //------------------ STREAM --------------------------------------
         integerList.stream().filter(v -> (int) v <20).forEach(System.out::println);
         integerList.stream().filter(Main01::check).forEach(System.out::println);
+
+//        integerList.stream().filter(integer -> ).collect(Collectors.toList())
     }
 
     private static boolean check(Integer v) {
